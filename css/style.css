@@ -25,23 +25,28 @@ body {
 a {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
 /* header */
-.logo .first {
+.logo .logo-first {
   color: var(--accent-color);
 }
 
-.logo .second {
+.logo .logo-second {
   color: var(--title-text-color);
 }
-
-.site-nav .link {
+.logo .logo-third {
+  color: var(--primary-white-color);
+}
+.site-nav .site-nav-link {
   color: var(--title-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .site-nav-link:hover,
+.site-nav .site-nav-link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav .site-nav-link.current {
   color: var(--accent-color);
 }
 .address-head {
@@ -69,11 +74,9 @@ h3 {
 
 .address {
   color: var(--primary-white-color);
-  background-color: var(--second-background);
 }
 .address-foot {
   color: var(--additional-color);
-  background-color: var(--second-background);
 }
 .title {
   color: var(--title-text-color);
@@ -86,4 +89,8 @@ h3 {
 .items .projects:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+footer {
+  background-color: var(--second-background);
 }
